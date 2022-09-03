@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/679af4529b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>My simple calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="calc-box">
+          <div class="display-box">
+            <form>
+              <input type="text" class="display" placeholder="0" />
+            </form>
+          </div>
+          <div class="first-row">
+            <button class="clear" data-num="C">C</button>
+            <button class="button" data-num="/">÷</button>
+            <button class="button" data-num="*">*</button>
+            <button class="backspace" data-num="&larr;">
+              <i class="fa-sharp fa-solid fa-arrow-left"></i>
+            </button>
+          </div>
+          <div class="second-row">
+            <button class="button" data-num="7">7</button>
+            <button class="button" data-num="8">8</button>
+            <button class="button" data-num="9">9</button>
+            <button class="button" data-num="-">-</button>
+          </div>
+          <div class="third-row">
+            <button class="button" data-num="4">4</button>
+            <button class="button" data-num="5">5</button>
+            <button class="button" data-num="6">6</button>
+            <button class="button" data-num="+">+</button>
+          </div>
+          <div class="fourth-row">
+            <button class="button" data-num="1">1</button>
+            <button class="button" data-num="2">2</button>
+            <button class="button" data-num="3">3</button>
+            <button class="button" data-num=".">.</button>
+          </div>
+          <div class="fifth-row">
+            <button class="button" data-num="(">(</button>
+            <button class="button" data-num="0">0</button>
+            <button class="button" data-num=")">)</button>
+            <button class="equal" data-num="=">=</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
